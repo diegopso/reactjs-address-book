@@ -12,6 +12,8 @@ parserOptions:
 plugins:
   - react
 rules: 
+  react/prop-types:
+    - 0
   indent:
     - error
     - 2
@@ -20,7 +22,7 @@ rules:
     - never
   object-curly-spacing:
     - 2
-    - never
+    - always
   object-shorthand:
     - 2
     - always

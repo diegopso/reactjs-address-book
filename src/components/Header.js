@@ -1,9 +1,9 @@
 import React from 'react'
-import {Layout, Row, Col, Input, Button} from 'antd'
+import { Layout, Row, Col, Input, Button } from 'antd'
 import logo from '../assets/img/logo.svg'
-import {SettingOutlined} from '@ant-design/icons'
+import { SettingOutlined } from '@ant-design/icons'
 
-const {Search} = Input
+const { Search } = Input
 const onSearch = value => console.log(value)
 
 const Header = () => {
