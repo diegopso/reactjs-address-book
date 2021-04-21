@@ -1,0 +1,63 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - 'plugin:react/recommended'
+  - standard
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 12
+  sourceType: module
+plugins:
+  - react
+rules: 
+  indent:
+    - error
+    - 2
+  comma-dangle:
+    - 2
+    - never
+  object-curly-spacing:
+    - 2
+    - never
+  object-shorthand:
+    - 2
+    - always
+  array-bracket-spacing:
+    - 2
+    - never
+  max-len:
+    - 2
+    - 120
+    - ignoreStrings: true
+      ignoreTemplateLiterals: true
+      ignoreComments: true
+  consistent-return: 0
+  prefer-destructuring:
+    - 2
+    - array: false
+      object: false
+    - enforceForRenamedProperties: false
+  prefer-object-spread: 0
+  prefer-rest-params: 0
+  prefer-spread: 0
+  function-paren-newline: 0
+  no-plusplus: 1
+  no-param-reassign: 1
+  strict:
+    - 2
+    - safe
+  valid-jsdoc:
+    - 2
+    - requireReturn: false
+      requireParamDescription: false
+      requireReturnDescription: false
+overrides:
+  - files: tests/**
+    rules:
+      no-template-curly-in-string: 1
+  - files: markdown.config.js
+    rules:
+      no-console: 0
+

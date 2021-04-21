@@ -1,13 +1,14 @@
+import React from 'react'
 import Header from './components/Header'
 import './assets/css/App.css'
-import { Layout } from 'antd';
+import {Layout} from 'antd'
 
-function App() {
+function App () {
   return (
     <Layout>
       <Header></Header>
     </Layout>
-  );
+  )
 }
 
-export default App;
+export default App
