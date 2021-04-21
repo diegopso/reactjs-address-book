@@ -8,6 +8,7 @@ const paginate = async (page, results) => {
     params: { results, seed, page }
   })
   // .then(result => new Promise(resolve => setTimeout(() => resolve(result), 60000))) // delay
+  // .reject(new Error('fail'))
 }
 
 export { paginate }

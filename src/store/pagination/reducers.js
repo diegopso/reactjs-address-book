@@ -1,4 +1,4 @@
-import { NEXT_PAGE } from './actions'
+import { NEXT_PAGE_SUCCESS } from './actions'
 
 const INITIAL_STATE = {
   page: 0,
@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
-  case NEXT_PAGE:
+  case NEXT_PAGE_SUCCESS:
     return {
       ...state,
       page: state.page + 1,
