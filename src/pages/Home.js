@@ -1,37 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Header, UserList } from '../components'
 import { Layout } from 'antd'
-
-const data = {
-  results: [
-    {
-      name: {
-        first: 'brad',
-        last: 'gibson'
-      },
-      email: 'brad.gibson@example.com',
-      login: {
-        uuid: '155e77ee-ba6d-486f-95ce-0e0c0fb4b919',
-        username: 'silverswan131'
-      },
-      picture: {
-        thumbnail: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
-      }
-    }
-  ],
-  info: {
-    seed: 'fea8be3e64777240',
-    results: 1,
-    page: 1,
-    version: '1.3'
-  }
-}
+import { useDispatch, useSelector } from 'react-redux'
+import { loadNextPage } from '../store/pagination/actions'
 
 const Home = () => {
+  const pagination = useSelector((state) => state.pagination)
+  const dispatch = useDispatch()
+  useEffect(() => {
+    if (pagination.items.length === 0) {
+      dispatch(loadNextPage)
+    }
+  })
   return (
     <Layout>
       <Header></Header>
-      <UserList data={data}></UserList>
+      <UserList users={pagination.items}></UserList>
     </Layout>
   )
 }

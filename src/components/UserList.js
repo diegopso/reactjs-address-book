@@ -22,7 +22,7 @@ const UserList = (props) => {
   return (
     <Layout className="user-list-container">
       <Row>
-        { props.data.results.map(user => <User key={user.login.uuid} user={user}></User>) }
+        { props.users.map(user => <User key={user.login.uuid} user={user}></User>) }
       </Row>
     </Layout>
   )
