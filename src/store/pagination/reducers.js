@@ -2,6 +2,8 @@ import { NEXT_PAGE } from './actions'
 
 const INITIAL_STATE = {
   page: 0,
+  maxPages: 20,
+  usersPerPage: 50,
   loading: false,
   items: []
 }
@@ -9,8 +11,11 @@ const INITIAL_STATE = {
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case NEXT_PAGE:
-    state.page += 1
-    return { ...state, items: [...state.items, ...action.payload.results] }
+    return {
+      ...state,
+      page: state.page + 1,
+      items: [...state.items, ...action.payload.results]
+    }
   default:
     return state
   }
