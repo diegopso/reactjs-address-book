@@ -2,6 +2,7 @@ import React from 'react'
 import { Layout, Row, Col, Input, Button } from 'antd'
 import logo from '../assets/img/logo.svg'
 import { SettingOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
 
 const { Search } = Input
 const onSearch = value => console.log(value)
@@ -26,13 +27,15 @@ const Header = () => {
           </Col>
           <Col span={8}></Col>
           <Col span={2}>
-            <Button
-              className="more"
-              type="default"
-              shape="circle"
-              size="large"
-              alt="More options"
-              icon={<SettingOutlined />} />
+            <Link to="/settings">
+              <Button
+                className="more"
+                type="default"
+                shape="circle"
+                size="large"
+                alt="More options"
+                icon={<SettingOutlined />} />
+            </Link>
           </Col>
         </Row>
       </header>

@@ -4,6 +4,13 @@
     background: linear-gradient(#9f87c2, #B398DB);
 }
 
+.minimal-header {
+  height: 15px;
+  display: block;
+  width: 100%;
+  background: #B398DB;
+}
+
 .header-logo {
     width: 100px;
 }

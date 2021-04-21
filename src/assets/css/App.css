@@ -2,3 +2,12 @@
 
 @import './components/Header.css';
 @import './components/UserList.css';
+
+.internal-container {
+  padding: 20px 60px;
+  min-height: calc(100vh - 15px);
+}
+
+.ant-switch-checked {
+  background-color: #B398DB;
+}
