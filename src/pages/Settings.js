@@ -3,15 +3,29 @@ import { Layout, PageHeader, Breadcrumb, Divider, List, Typography, Switch } fro
 import { HomeOutlined, FlagTwoTone } from '@ant-design/icons'
 import { MinimalHeader } from '../components'
 import Flag from 'react-flagkit'
-
-const nationalities = [
-  { code: 'CH', name: 'Switzerland' },
-  { code: 'ES', name: 'Spain' },
-  { code: 'FR', name: 'France' },
-  { code: 'GB', name: 'United Kingdom' }
-]
+import { enableCountry, disableCountry } from '../store/settings/actions'
+import { useDispatch, useSelector } from 'react-redux'
 
 const Settings = () => {
+  const nationalities = [
+    { code: 'CH', name: 'Switzerland' },
+    { code: 'ES', name: 'Spain' },
+    { code: 'FR', name: 'France' },
+    { code: 'GB', name: 'United Kingdom' }
+  ]
+  const dispatch = useDispatch()
+  const settings = useSelector(state => state.settings)
+
+  const updateCountry = (code) => {
+    return (checked) => {
+      if (checked) {
+        dispatch(enableCountry(code))
+      } else {
+        dispatch(disableCountry(code))
+      }
+    }
+  }
+
   return (
     <div>
       <MinimalHeader></MinimalHeader>
@@ -33,7 +47,7 @@ const Settings = () => {
             dataSource={nationalities}
             renderItem={item => (
               <List.Item>
-                <Switch defaultChecked /> <Flag country={ item.code } size="24" /> <Typography.Text>{item.name}</Typography.Text>
+                <Switch checked={settings.indexOf(item.code) !== -1} onChange={updateCountry(item.code)} /> <Flag country={ item.code } size="24" /> <Typography.Text>{item.name}</Typography.Text>
               </List.Item>
             )}
           />
