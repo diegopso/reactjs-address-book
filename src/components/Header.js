@@ -9,7 +9,7 @@ const onSearch = value => console.log(value)
 
 const Header = () => {
   return (
-    <Layout>
+    <Layout className="main-header-container">
       <header className="main-header">
         <Row>
           <Col span={2}>

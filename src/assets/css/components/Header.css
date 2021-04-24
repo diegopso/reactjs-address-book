@@ -1,7 +1,24 @@
 .main-header {
-    height: 150px;
-    padding: 50px;
-    background: linear-gradient(#9f87c2, #B398DB);
+    height: 70px;
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    z-index: 99999;
+}
+
+.main-header-container {
+  height: 150px;
+  background: linear-gradient(#9f87c2, #B398DB);
+  padding: 40px 0 0 60px;
+  top: -80px;
+
+  display: flex;
+  align-items: center;
+  position: sticky;
+
+  width: 100%;
+  z-index: 99999;
 }
 
 .minimal-header {
