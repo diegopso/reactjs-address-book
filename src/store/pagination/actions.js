@@ -8,3 +8,6 @@ export const loadNextPage = (pagination, settings) => {
     payload: { pagination, settings }
   })
 }
+
+export const RESET_PAGINATION = '@pagination/RESET_PAGINATION'
+export const resetPagination = () => ({ type: RESET_PAGINATION })

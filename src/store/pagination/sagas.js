@@ -5,6 +5,7 @@ import { NEXT_PAGE, NEXT_PAGE_SUCCESS, NEXT_PAGE_ERROR } from './actions'
 
 function * loadNextPage ({ type, payload }) {
   let error = false
+
   try {
     const response = yield call(
       paginate,
@@ -31,5 +32,7 @@ function * loadNextPage ({ type, payload }) {
 }
 
 export default function * paginationSaga () {
-  yield all([takeLatest(NEXT_PAGE, loadNextPage)])
+  yield all([
+    takeLatest(NEXT_PAGE, loadNextPage)
+  ])
 }
