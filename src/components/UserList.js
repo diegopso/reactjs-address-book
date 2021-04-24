@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import { Layout, Card, Avatar, Row, Col, Divider, Spin } from 'antd'
+import { Layout, Card, Avatar, Row, Col, Divider, Spin, Button } from 'antd'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadNextPage } from '../store/pagination/actions'
 import { upperCaseFirst } from '../helpers/string'
-import { LoadingOutlined } from '@ant-design/icons'
+import { ExclamationCircleTwoTone, LoadingOutlined } from '@ant-design/icons'
 
 const { Meta } = Card
 
@@ -22,10 +22,11 @@ const User = (props) => {
 
 const UserList = (props) => {
   const pagination = useSelector((state) => state.pagination)
+  const settings = useSelector((state) => state.settings)
   const dispatch = useDispatch()
   useEffect(() => {
-    if (pagination.items.length === 0) {
-      dispatch(loadNextPage)
+    if (!pagination.error && pagination.items.length === 0) {
+      dispatch(loadNextPage(pagination, settings))
     }
   })
 
@@ -33,14 +34,18 @@ const UserList = (props) => {
     <Layout className="user-list-container">
       <InfiniteScroll
         dataLength={pagination.items.length}
-        next={() => {
-          dispatch(loadNextPage)
-          console.log(pagination)
-        }}
+        next={() => { !pagination.error && dispatch(loadNextPage(pagination, settings)) }}
         hasMore={pagination.page < pagination.maxPages}
         loader={
           <div className="loading-container">
-            <Spin tip="Loading..." indicator={<LoadingOutlined style={{ fontSize: 24 }} spin />}></Spin>
+            {!pagination.error && <Spin tip="Loading..." indicator={<LoadingOutlined style={{ fontSize: 24 }} spin />}></Spin>}
+            {pagination.error &&
+              <div>
+                <ExclamationCircleTwoTone className="error-icon" twoToneColor="red" />
+                <p>There was a problem loading the list of users.</p>
+                <Button type="primary" onClick={() => { dispatch(loadNextPage(pagination, settings)) }}>Try Again</Button>
+              </div>
+            }
           </div>
         }
         endMessage={

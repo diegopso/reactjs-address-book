@@ -11,3 +11,9 @@
 .ant-switch-checked {
   background-color: #B398DB;
 }
+
+.error-icon {
+  font-size: 24px;
+  display: block;
+  margin: 5px;
+}

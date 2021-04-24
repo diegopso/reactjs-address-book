@@ -11,12 +11,13 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: 
+rules:
   react/prop-types:
     - 0
   indent:
     - error
     - 2
+    - SwitchCase: 1
   comma-dangle:
     - 2
     - never
