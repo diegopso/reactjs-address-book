@@ -11,3 +11,12 @@ export const loadNextPage = (pagination, settings) => {
 
 export const RESET_PAGINATION = '@pagination/RESET_PAGINATION'
 export const resetPagination = () => ({ type: RESET_PAGINATION })
+
+export const SEARCH = '@pagination/SEARCH'
+export const FILTER_USERS = '@pagination/FILTER_USERS'
+export const search = (query) => {
+  return ({
+    type: SEARCH,
+    payload: { query }
+  })
+}

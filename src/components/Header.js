@@ -3,11 +3,13 @@ import { Layout, Row, Col, Input, Button } from 'antd'
 import logo from '../assets/img/logo.svg'
 import { SettingOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { search } from '../store/pagination/actions'
 
 const { Search } = Input
-const onSearch = value => console.log(value)
 
 const Header = () => {
+  const dispatch = useDispatch()
   return (
     <Layout className="main-header-container">
       <header className="main-header">
@@ -22,7 +24,7 @@ const Header = () => {
               className="search"
               placeholder="Enter contact name"
               allowClear
-              onSearch={onSearch}
+              onSearch={value => dispatch(search(value))}
               size="large" />
           </Col>
           <Col span={8}></Col>
