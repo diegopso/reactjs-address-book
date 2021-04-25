@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react'
-import { Layout, Card, Avatar, Row, Col, Divider, Spin, Button, Empty } from 'antd'
+import { Layout, Card, Avatar, Row, Col, Divider, Spin, Button, Empty, Typography } from 'antd'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadNextPage } from '../store/pagination/actions'
 import { upperCaseFirst } from '../helpers/string'
-import { ExclamationCircleTwoTone, LoadingOutlined } from '@ant-design/icons'
+import { CopyTwoTone, ExclamationCircleTwoTone, LoadingOutlined } from '@ant-design/icons'
 
 const { Meta } = Card
+const { Text } = Typography
 
-const User = ({ user }) => {
+export const User = ({ user }) => {
   if (user.hide) {
     return <></>
   }
@@ -18,15 +19,24 @@ const User = ({ user }) => {
       <Card>
         <Meta
           avatar={<Avatar src={user.picture.thumbnail} />}
-          title={upperCaseFirst(user.name.first) + ' ' + upperCaseFirst(user.name.last)}
-          description={'@' + user.login.username}
+          title={
+            <div>
+              <Text>{upperCaseFirst(user.name.first) + ' ' + upperCaseFirst(user.name.last)}</Text>
+              <Text disabled className="text-small">{' @' + user.login.username}</Text>
+            </div>
+          }
+          description={
+            <Text copyable={{
+              icon: <CopyTwoTone twoToneColor="#ccc" />
+            }}>{user.email}</Text>
+          }
         />
       </Card>
     </Col>
   )
 }
 
-const Loader = ({ error, onReattempt }) => {
+export const Loader = ({ error, onReattempt }) => {
   if (!error) {
     return (
       <div className="loading-container">
