@@ -1,16 +1,25 @@
 import { ENABLE_COUNTRY, DISABLE_COUNTRY } from './actions'
 
-const INITIAL_STATE = ['CH', 'ES', 'FR', 'GB']
+const countriesString = localStorage.getItem('countries')
+const INITIAL_STATE = countriesString ? countriesString.split(',') : ['CH', 'ES', 'FR', 'GB']
 
 const reducer = (state = INITIAL_STATE, action) => {
+  let newState = []
+
   switch (action.type) {
     case ENABLE_COUNTRY:
-      return state.concat([action.payload.code])
+      newState = state.concat([action.payload.code])
+      break
     case DISABLE_COUNTRY:
-      return state.filter(code => code !== action.payload.code)
+      newState = state.filter(code => code !== action.payload.code)
+      break
     default:
-      return state
+      newState = state
+      break
   }
+
+  localStorage.setItem('countries', newState.join(','))
+  return newState
 }
 
 export default reducer

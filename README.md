@@ -55,6 +55,7 @@ docker-composer up app-prod
 - Infinity scroll
 - Sticky search bar at the top
 - Settings page
+- Persistent settings after refresh (using localStorage)
 - Unit tests
 - Easy install with Docker
 - API Exception handling
