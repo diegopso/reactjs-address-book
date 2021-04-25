@@ -8,9 +8,10 @@ Clone the repository:
 
 ```
 git clone https://github.com/diegopso/reactjs-address-book.git
+cd reactjs-address-book
 ```
 
-Install and execute using NPM (v12):
+Install and execute using NPM (tested with v12):
 
 ```
 npm install
@@ -41,7 +42,15 @@ Or:
 docker-compose up --build test
 ```
 
-### Production
+### Build
+
+After instalation:
+
+```
+npm run build
+```
+
+Or:
 
 ```
 docker-composer up --build app-prod
