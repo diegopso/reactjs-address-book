@@ -4,7 +4,6 @@
     top: 0;
 
     width: 100%;
-    z-index: 99999;
 }
 
 .main-header-container {
@@ -18,7 +17,7 @@
   position: sticky;
 
   width: 100%;
-  z-index: 99999;
+  z-index: 1000;
 }
 
 .minimal-header {
