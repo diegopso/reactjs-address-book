@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+  test:
+    container_name: app-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - CI=true
+    command: npm test
+
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:3000
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+  app-prod:
+    container_name: app-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - '8000:80'
