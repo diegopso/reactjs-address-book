@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing DetailsModal component: Renders correctly. 1`] = `
+<Modal
+  className="user-details"
+  confirmLoading={false}
+  footer={null}
+  okType="primary"
+  title="User Details"
+  visible={false}
+  width={520}
+>
+  <Layout>
+    <Row>
+      <Col
+        span={8}
+      >
+        <Image
+          preview={false}
+          src="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+          width="80%"
+        />
+      </Col>
+      <Col
+        span={12}
+      >
+        <Row>
+          <Col
+            span={24}
+          >
+            <Title
+              level={2}
+            >
+              Brad Gibson
+            </Title>
+          </Col>
+          <Col
+            span={2}
+          >
+            <ForwardRef(PhoneOutlined) />
+          </Col>
+          <Col
+            span={22}
+          >
+            <Text />
+          </Col>
+          <Col
+            span={2}
+          >
+            <ForwardRef(WhatsAppOutlined) />
+          </Col>
+          <Col
+            span={22}
+          >
+            <Text />
+          </Col>
+          <Col
+            span={2}
+          >
+            <ForwardRef(EnvironmentOutlined) />
+          </Col>
+          <Col
+            span={22}
+          >
+            <Text>
+              New road
+               
+              9278
+            </Text>
+            <br />
+            <Text>
+              93027
+               
+              kilcoole
+            </Text>
+            <br />
+            <Text>
+              waterford
+              , 
+              Spain
+            </Text>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Layout>
+</Modal>
+`;

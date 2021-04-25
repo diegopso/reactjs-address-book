@@ -1,40 +1,11 @@
-import React, { useEffect } from 'react'
-import { Layout, Card, Avatar, Row, Col, Divider, Spin, Button, Empty, Typography } from 'antd'
+import React, { useEffect, useState } from 'react'
+import { Layout, Row, Divider, Spin, Button, Empty } from 'antd'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadNextPage } from '../store/pagination/actions'
-import { upperCaseFirst } from '../helpers/string'
-import { CopyTwoTone, ExclamationCircleTwoTone, LoadingOutlined } from '@ant-design/icons'
-
-const { Meta } = Card
-const { Text } = Typography
-
-export const User = ({ user }) => {
-  if (user.hide) {
-    return <></>
-  }
-
-  return (
-    <Col className="user-container" span="6">
-      <Card>
-        <Meta
-          avatar={<Avatar src={user.picture.thumbnail} />}
-          title={
-            <div>
-              <Text>{upperCaseFirst(user.name.first) + ' ' + upperCaseFirst(user.name.last)}</Text>
-              <Text disabled className="text-small">{' @' + user.login.username}</Text>
-            </div>
-          }
-          description={
-            <Text copyable={{
-              icon: <CopyTwoTone twoToneColor="#ccc" />
-            }}>{user.email}</Text>
-          }
-        />
-      </Card>
-    </Col>
-  )
-}
+import { ExclamationCircleTwoTone, LoadingOutlined } from '@ant-design/icons'
+import DetailsModal from './DetailsModal'
+import UserCard from './UserCard'
 
 export const Loader = ({ error, onReattempt }) => {
   if (!error) {
@@ -60,6 +31,15 @@ const UserList = () => {
   const pagination = useSelector((state) => state.pagination)
   const settings = useSelector((state) => state.settings)
   const dispatch = useDispatch()
+  const [selectedUser, setSelectedUser] = useState({})
+  const [isModalVisible, setIsModalVisible] = useState({})
+
+  const onCardClick = (user) => {
+    return () => {
+      setSelectedUser(user)
+      setIsModalVisible(true)
+    }
+  }
 
   useEffect(() => {
     if (settings.length > 0 && !pagination.error && pagination.items.length === 0) {
@@ -99,10 +79,13 @@ const UserList = () => {
           }
         >
           <Row>
-            {pagination.items.map(user => <User key={user.login.uuid} user={user}/>)}
+            {pagination.items.map(user => <UserCard key={user.login.uuid} user={user} onClick={onCardClick(user)}/>)}
           </Row>
         </InfiniteScroll>
       }
+      <DetailsModal
+        user={selectedUser}
+        visible={isModalVisible} onDismiss={() => { setIsModalVisible(false) }} />
     </Layout>
   )
 }

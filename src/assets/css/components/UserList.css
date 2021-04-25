@@ -7,9 +7,21 @@
     padding: 10px;
 }
 
+.user-container .ant-card {
+  cursor: pointer;
+}
+
+.user-container .ant-typography.ant-typography-disabled {
+  cursor: pointer;
+}
+
 .loading-container {
   width: 100%;
   display: block;
   text-align: center;
   padding: 15px 0;
+}
+
+.user-details .ant-layout {
+  background-color: transparent;
 }

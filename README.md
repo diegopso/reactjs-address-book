@@ -22,7 +22,7 @@ npm start
 Or use Docker instead:
 
 ```
-docker-compose up app
+docker-compose up --build app
 ```
 
 > Access at https://localhost:3001
@@ -38,13 +38,13 @@ npm run test
 Or:
 
 ```
-docker-compose up test
+docker-compose up --build test
 ```
 
 ### Production
 
 ```
-docker-composer up app-prod
+docker-composer up --build app-prod
 ```
 
 > Access at https://localhost:8000

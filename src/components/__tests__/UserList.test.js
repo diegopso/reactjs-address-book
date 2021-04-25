@@ -1,7 +1,7 @@
 import React from 'react'
 import { describe, it, expect, jest } from '@jest/globals'
 import { shallow } from 'enzyme'
-import UserList, { Loader, User } from '../UserList'
+import UserList, { Loader } from '../UserList'
 import store from '../../store'
 import { Provider } from 'react-redux'
 import { render } from '@testing-library/react'
@@ -27,27 +27,6 @@ describe('Testing Loader in UserList component:', () => {
     const buttonElement = wrapper.find('Button')
     buttonElement.simulate('click')
     expect(onReattemptMock).toHaveBeenCalledTimes(1)
-  })
-})
-
-describe('Testing User in UserList component:', () => {
-  const userMock = {
-    email: 'brad.gibson@example.com',
-    name: {
-      first: 'brad',
-      last: 'gibson'
-    },
-    login: {
-      username: 'silverswan131'
-    },
-    picture: {
-      thumbnail: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
-    }
-  }
-
-  it('Renders correctly.', () => {
-    const wrapper = shallow(<User user={userMock} />)
-    expect(wrapper).toMatchSnapshot()
   })
 })
 

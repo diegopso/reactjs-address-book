@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing UserCard component: Renders correctly. 1`] = `
+<Col
+  className="user-container"
+  span="6"
+>
+  <Card>
+    <Meta
+      avatar={
+        <Avatar
+          shape="circle"
+          size="default"
+          src="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+        />
+      }
+      description={
+        <Text>
+          brad.gibson@example.com
+        </Text>
+      }
+      title={
+        <div>
+          <Text>
+            Brad Gibson
+          </Text>
+          <Text
+            className="text-small"
+            disabled={true}
+          >
+             @silverswan131
+          </Text>
+        </div>
+      }
+    />
+  </Card>
+</Col>
+`;
