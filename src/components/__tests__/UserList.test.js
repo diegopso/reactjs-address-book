@@ -6,7 +6,7 @@ import store from '../../store'
 import { Provider } from 'react-redux'
 import { render } from '@testing-library/react'
 import axios from 'axios'
-import randomUserRequestMock from './randomUserRequestMock.json'
+import randomUserRequestMock from '../../adapters/__mocks__/randomUserRequestMock.json'
 
 jest.mock('axios')
 

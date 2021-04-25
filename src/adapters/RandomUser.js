@@ -40,4 +40,4 @@ const paginate = async (page, limit, countries, cacheNext = true) => {
   // .reject(new Error('fail'))
 }
 
-export { paginate }
+export const RandomUser = { paginate }

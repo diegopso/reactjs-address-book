@@ -2,7 +2,7 @@ import { all, put, takeLatest, select } from 'redux-saga/effects'
 import { loadNextPage, resetPagination } from '../pagination/actions'
 import { DISABLE_COUNTRY, ENABLE_COUNTRY } from './actions'
 
-function * disableCountry ({ code }) {
+export function * disableCountry ({ code }) {
   yield put(resetPagination())
   const state = yield select()
   state.settings.filter(country => country !== code)
@@ -11,7 +11,7 @@ function * disableCountry ({ code }) {
   }
 }
 
-function * enableCountry ({ code }) {
+export function * enableCountry ({ code }) {
   yield put(resetPagination())
   const state = yield select()
   state.settings.concat([code])
