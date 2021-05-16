@@ -1,7 +1,8 @@
+import { load, save } from '../../adapters/PersistenceEngine'
 import { ENABLE_COUNTRY, DISABLE_COUNTRY } from './actions'
 
-const countriesString = localStorage.getItem('countries')
-const INITIAL_STATE = countriesString ? countriesString.split(',') : ['CH', 'ES', 'FR', 'GB']
+const persistenceKey = 'countries'
+const INITIAL_STATE = load(persistenceKey, ['CH', 'ES', 'FR', 'GB'])
 
 const reducer = (state = INITIAL_STATE, action) => {
   let newState = []
@@ -18,7 +19,7 @@ const reducer = (state = INITIAL_STATE, action) => {
       break
   }
 
-  localStorage.setItem('countries', newState.join(','))
+  save(persistenceKey, newState)
   return newState
 }
 

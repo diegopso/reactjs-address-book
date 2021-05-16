@@ -12,14 +12,14 @@ const paginate = async (page, limit, countries, cacheNext = true) => {
 
   if (cacheNext) {
     setTimeout(() => {
-      console.debug((Date.now() / 1000) + ' Requesting page ' + (page + 1))
+      console.debug(Date.now() + ' Requesting page ' + (page + 1))
       paginate(page + 1, limit, countries, false) // cache next
     }, 500)
   }
 
   if (cacheKey in cache) {
     return new Promise(resolve => {
-      console.debug((Date.now() / 1000) + ' Loading prefetched page ' + page)
+      console.debug(Date.now() + ' Loading prefetched page ' + page)
       resolve(cache[cacheKey])
     })
   }
@@ -32,7 +32,7 @@ const paginate = async (page, limit, countries, cacheNext = true) => {
       delete cache[cacheKey]
     }, freshness)
 
-    cacheNext && console.debug((Date.now() / 1000) + ' Loading upon request, page ' + page)
+    cacheNext && console.debug(Date.now() + ' Loading upon request, page ' + page)
     return new Promise(resolve => resolve(cache[cacheKey]))
   })
 
