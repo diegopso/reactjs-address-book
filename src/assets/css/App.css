@@ -21,3 +21,8 @@
 .text-small {
   font-size: 12px;
 }
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+}

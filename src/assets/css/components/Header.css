@@ -9,7 +9,7 @@
 .main-header-container {
   height: 150px;
   background: linear-gradient(#9f87c2, #B398DB);
-  padding: 40px 0 0 60px;
+  padding: 40px 60px 0 60px;
   top: -80px;
 
   display: flex;
@@ -37,5 +37,11 @@
 }
 
 .more {
-    margin-top: 15px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.more button {
+  margin-top: 15px;
 }

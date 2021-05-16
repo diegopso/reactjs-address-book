@@ -14,12 +14,12 @@ const Header = () => {
     <Layout className="main-header-container">
       <header className="main-header">
         <Row>
-          <Col span={2}>
+          <Col xs={6} span={2}>
             <div className="logo">
               <img src={logo} className="header-logo" alt="Logo" />
             </div>
           </Col>
-          <Col span={12}>
+          <Col xs={13} span={12}>
             <Search
               className="search"
               placeholder="Enter contact name"
@@ -27,11 +27,10 @@ const Header = () => {
               onSearch={value => dispatch(search(value))}
               size="large" />
           </Col>
-          <Col span={8}></Col>
-          <Col span={2}>
-            <Link to="/settings">
+          <Col xs={1} span={8}></Col>
+          <Col xs={4} span={2}>
+            <Link className="more" to="/settings">
               <Button
-                className="more"
                 type="default"
                 shape="circle"
                 size="large"
