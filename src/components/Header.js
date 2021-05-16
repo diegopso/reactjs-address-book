@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout, Row, Col, Input, Button } from 'antd'
-import logo from '../assets/img/logo.svg'
+import logo from '../assets/images/logo.svg'
 import { SettingOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
