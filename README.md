@@ -11,7 +11,7 @@ git clone https://github.com/diegopso/reactjs-address-book.git
 cd reactjs-address-book
 ```
 
-Install and execute using NPM (tested with v12):
+Install and execute using NPM (tested with Node v14):
 
 ```
 npm install
@@ -74,9 +74,10 @@ docker-composer up --build app-prod
 ## Technologies
 
 - ReactJS
-- Eslint
 - Redux-Saga
-- Docker
 - Axios
-- JEST
 - Ant Design
+- JEST
+- Sass
+- Eslint
+- Docker

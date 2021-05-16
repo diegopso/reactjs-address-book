@@ -1,7 +1,6 @@
-@import '~antd/dist/antd.css';
-
-@import './components/Header.css';
-@import './components/UserList.css';
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
 
 .internal-container {
   padding: 20px 60px;
@@ -9,7 +8,7 @@
 }
 
 .ant-switch-checked {
-  background-color: #B398DB;
+  background-color: $base-color;
 }
 
 .error-icon {

@@ -1,0 +1,46 @@
+.main-header-container {
+  height: 150px;
+  background: linear-gradient($auxiliar-color, $base-color);
+  padding: 40px 60px 0 60px;
+  top: -80px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  z-index: 1000;
+
+  .main-header {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    $contents-top-margin: 15px;
+
+    .header-logo {
+      width: 100px;
+    }
+
+    .search {
+      width: 100%;
+      margin-top: $contents-top-margin;
+    }
+
+    .more {
+      position: absolute;
+      right: 0;
+      margin-right: 10px;
+
+      button {
+        margin-top: $contents-top-margin;
+      }
+    }
+  }
+}
+
+.minimal-header {
+  height: 15px;
+  display: block;
+  width: 100%;
+  background: $base-color;
+}

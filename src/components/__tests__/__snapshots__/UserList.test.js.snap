@@ -63,7 +63,7 @@ Object {
               class="ant-row"
             >
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -93,12 +93,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Amparo Marquez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @bluemouse830
                             </span>
@@ -108,7 +108,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             amparo.marquez@example.com
                           </span>
@@ -119,7 +119,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -149,12 +149,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Norah Philippe
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @ticklishrabbit547
                             </span>
@@ -164,7 +164,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             norah.philippe@example.com
                           </span>
@@ -175,7 +175,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -205,12 +205,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Justin Sanchez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @yellowfrog799
                             </span>
@@ -220,7 +220,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             justin.sanchez@example.com
                           </span>
@@ -231,7 +231,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -261,12 +261,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Elya Faure
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @crazylion752
                             </span>
@@ -276,7 +276,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             elya.faure@example.com
                           </span>
@@ -287,7 +287,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -317,12 +317,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Jaime Gutierrez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @brownlion714
                             </span>
@@ -332,7 +332,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             jaime.gutierrez@example.com
                           </span>
@@ -343,7 +343,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -373,12 +373,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Esteban Romero
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @biggorilla698
                             </span>
@@ -388,7 +388,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             esteban.romero@example.com
                           </span>
@@ -399,7 +399,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -429,12 +429,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Théo Roussel
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @redpanda970
                             </span>
@@ -444,7 +444,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             theo.roussel@example.com
                           </span>
@@ -455,7 +455,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -485,12 +485,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Margrith Morin
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @happylion588
                             </span>
@@ -500,7 +500,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             margrith.morin@example.com
                           </span>
@@ -511,7 +511,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -541,12 +541,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Maya Louis
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @ticklishelephant259
                             </span>
@@ -556,7 +556,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             maya.louis@example.com
                           </span>
@@ -567,7 +567,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -597,12 +597,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Antonio Carmona
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @tinygorilla269
                             </span>
@@ -612,7 +612,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             antonio.carmona@example.com
                           </span>
@@ -623,7 +623,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -653,12 +653,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Agustin Muñoz
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @angrykoala849
                             </span>
@@ -668,7 +668,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             agustin.munoz@example.com
                           </span>
@@ -679,7 +679,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -709,12 +709,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Manuela Calvo
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @lazybird187
                             </span>
@@ -724,7 +724,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             manuela.calvo@example.com
                           </span>
@@ -735,7 +735,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -765,12 +765,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Helmut Bernard
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @crazybird440
                             </span>
@@ -780,7 +780,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             helmut.bernard@example.com
                           </span>
@@ -791,7 +791,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -821,12 +821,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Faith George
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @silvercat803
                             </span>
@@ -836,7 +836,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             faith.george@example.com
                           </span>
@@ -847,7 +847,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -877,12 +877,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Carmelo Velasco
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @lazysnake754
                             </span>
@@ -892,7 +892,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             carmelo.velasco@example.com
                           </span>
@@ -903,7 +903,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -933,12 +933,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Amelia Mcdonalid
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @blackswan541
                             </span>
@@ -948,7 +948,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             amelia.mcdonalid@example.com
                           </span>
@@ -959,7 +959,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -989,12 +989,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Hanaé Lefevre
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @bluetiger873
                             </span>
@@ -1004,7 +1004,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             hanae.lefevre@example.com
                           </span>
@@ -1015,7 +1015,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1045,12 +1045,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Heidi Daniels
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @smallpeacock320
                             </span>
@@ -1060,7 +1060,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             heidi.daniels@example.com
                           </span>
@@ -1071,7 +1071,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1101,12 +1101,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Jimmie Henderson
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @happyrabbit783
                             </span>
@@ -1116,7 +1116,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             jimmie.henderson@example.com
                           </span>
@@ -1127,7 +1127,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1157,12 +1157,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Basil Marie
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @crazyleopard493
                             </span>
@@ -1172,7 +1172,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             basil.marie@example.com
                           </span>
@@ -1183,7 +1183,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1213,12 +1213,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Dwight Soto
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @happyrabbit710
                             </span>
@@ -1228,7 +1228,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             dwight.soto@example.com
                           </span>
@@ -1239,7 +1239,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1269,12 +1269,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Anaëlle Roux
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @brownmouse792
                             </span>
@@ -1284,7 +1284,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             anaelle.roux@example.com
                           </span>
@@ -1295,7 +1295,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1325,12 +1325,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Gabe Chambers
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @blackgoose558
                             </span>
@@ -1340,7 +1340,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             gabe.chambers@example.com
                           </span>
@@ -1351,7 +1351,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1381,12 +1381,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Mahé Durand
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @silverleopard983
                             </span>
@@ -1396,7 +1396,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             mahe.durand@example.com
                           </span>
@@ -1407,7 +1407,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1437,12 +1437,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Alejandro Fernandez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @silvermeercat163
                             </span>
@@ -1452,7 +1452,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             alejandro.fernandez@example.com
                           </span>
@@ -1463,7 +1463,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1493,12 +1493,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Vanesa Cortes
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @browncat192
                             </span>
@@ -1508,7 +1508,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             vanesa.cortes@example.com
                           </span>
@@ -1519,7 +1519,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1549,12 +1549,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Isabella Gilbert
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @heavymouse151
                             </span>
@@ -1564,7 +1564,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             isabella.gilbert@example.com
                           </span>
@@ -1575,7 +1575,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1605,12 +1605,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Amir Hubert
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @crazydog464
                             </span>
@@ -1620,7 +1620,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             amir.hubert@example.com
                           </span>
@@ -1631,7 +1631,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1661,12 +1661,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Holly Smith
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @sadkoala916
                             </span>
@@ -1676,7 +1676,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             holly.smith@example.com
                           </span>
@@ -1687,7 +1687,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1717,12 +1717,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Lenny Rey
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @heavyladybug676
                             </span>
@@ -1732,7 +1732,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             lenny.rey@example.com
                           </span>
@@ -1743,7 +1743,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1773,12 +1773,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Joaquin Nuñez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @tinypeacock607
                             </span>
@@ -1788,7 +1788,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             joaquin.nunez@example.com
                           </span>
@@ -1799,7 +1799,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1829,12 +1829,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Hector Esteban
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @whitegorilla529
                             </span>
@@ -1844,7 +1844,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             hector.esteban@example.com
                           </span>
@@ -1855,7 +1855,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1885,12 +1885,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Heather Steward
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @bluepanda699
                             </span>
@@ -1900,7 +1900,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             heather.steward@example.com
                           </span>
@@ -1911,7 +1911,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1941,12 +1941,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Rémy Gautier
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @goldentiger956
                             </span>
@@ -1956,7 +1956,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             remy.gautier@example.com
                           </span>
@@ -1967,7 +1967,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -1997,12 +1997,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Prisca Simon
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @goldengorilla729
                             </span>
@@ -2012,7 +2012,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             prisca.simon@example.com
                           </span>
@@ -2023,7 +2023,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2053,12 +2053,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Montserrat Velasco
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @happypeacock220
                             </span>
@@ -2068,7 +2068,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             montserrat.velasco@example.com
                           </span>
@@ -2079,7 +2079,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2109,12 +2109,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Elouan Barbier
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @beautifulfrog851
                             </span>
@@ -2124,7 +2124,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             elouan.barbier@example.com
                           </span>
@@ -2135,7 +2135,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2165,12 +2165,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Virginia Garcia
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @biggorilla925
                             </span>
@@ -2180,7 +2180,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             virginia.garcia@example.com
                           </span>
@@ -2191,7 +2191,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2221,12 +2221,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Maelya Dubois
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @sadelephant557
                             </span>
@@ -2236,7 +2236,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             maelya.dubois@example.com
                           </span>
@@ -2247,7 +2247,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2277,12 +2277,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Ella Scott
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @greenmouse583
                             </span>
@@ -2292,7 +2292,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             ella.scott@example.com
                           </span>
@@ -2303,7 +2303,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2333,12 +2333,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Rodney Hale
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @heavyrabbit161
                             </span>
@@ -2348,7 +2348,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             rodney.hale@example.com
                           </span>
@@ -2359,7 +2359,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2389,12 +2389,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Emmie Berger
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @angryduck712
                             </span>
@@ -2404,7 +2404,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             emmie.berger@example.com
                           </span>
@@ -2415,7 +2415,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2445,12 +2445,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Benno Adam
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @angrygorilla866
                             </span>
@@ -2460,7 +2460,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             benno.adam@example.com
                           </span>
@@ -2471,7 +2471,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2501,12 +2501,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Marin Chevalier
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @smallkoala487
                             </span>
@@ -2516,7 +2516,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             marin.chevalier@example.com
                           </span>
@@ -2527,7 +2527,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2557,12 +2557,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Yanick Perez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @organictiger866
                             </span>
@@ -2572,7 +2572,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             yanick.perez@example.com
                           </span>
@@ -2583,7 +2583,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2613,12 +2613,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Danny Terry
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @blackbear152
                             </span>
@@ -2628,7 +2628,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             danny.terry@example.com
                           </span>
@@ -2639,7 +2639,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2669,12 +2669,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Terrence Spencer
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @purpleduck784
                             </span>
@@ -2684,7 +2684,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             terrence.spencer@example.com
                           </span>
@@ -2695,7 +2695,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2725,12 +2725,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Sophie Martinez
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @angrywolf293
                             </span>
@@ -2740,7 +2740,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             sophie.martinez@example.com
                           </span>
@@ -2751,7 +2751,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2781,12 +2781,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Virginia Serrano
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @angrydog709
                             </span>
@@ -2796,7 +2796,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             virginia.serrano@example.com
                           </span>
@@ -2807,7 +2807,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-6 user-container"
+                class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
               >
                 <div
                   class="ant-card ant-card-bordered"
@@ -2837,12 +2837,12 @@ Object {
                         >
                           <div>
                             <span
-                              class="ant-typography"
+                              class="ant-typography truncate-text"
                             >
                               Gaël Pierre
                             </span>
                             <span
-                              class="ant-typography ant-typography-disabled text-small"
+                              class="ant-typography ant-typography-disabled text-small truncate-text"
                             >
                                @tinyfish852
                             </span>
@@ -2852,7 +2852,7 @@ Object {
                           class="ant-card-meta-description"
                         >
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             gael.pierre@example.com
                           </span>
@@ -2916,7 +2916,7 @@ Object {
             class="ant-row"
           >
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -2946,12 +2946,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Amparo Marquez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @bluemouse830
                           </span>
@@ -2961,7 +2961,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           amparo.marquez@example.com
                         </span>
@@ -2972,7 +2972,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3002,12 +3002,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Norah Philippe
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @ticklishrabbit547
                           </span>
@@ -3017,7 +3017,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           norah.philippe@example.com
                         </span>
@@ -3028,7 +3028,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3058,12 +3058,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Justin Sanchez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @yellowfrog799
                           </span>
@@ -3073,7 +3073,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           justin.sanchez@example.com
                         </span>
@@ -3084,7 +3084,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3114,12 +3114,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Elya Faure
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @crazylion752
                           </span>
@@ -3129,7 +3129,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           elya.faure@example.com
                         </span>
@@ -3140,7 +3140,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3170,12 +3170,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Jaime Gutierrez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @brownlion714
                           </span>
@@ -3185,7 +3185,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           jaime.gutierrez@example.com
                         </span>
@@ -3196,7 +3196,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3226,12 +3226,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Esteban Romero
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @biggorilla698
                           </span>
@@ -3241,7 +3241,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           esteban.romero@example.com
                         </span>
@@ -3252,7 +3252,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3282,12 +3282,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Théo Roussel
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @redpanda970
                           </span>
@@ -3297,7 +3297,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           theo.roussel@example.com
                         </span>
@@ -3308,7 +3308,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3338,12 +3338,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Margrith Morin
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @happylion588
                           </span>
@@ -3353,7 +3353,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           margrith.morin@example.com
                         </span>
@@ -3364,7 +3364,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3394,12 +3394,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Maya Louis
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @ticklishelephant259
                           </span>
@@ -3409,7 +3409,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           maya.louis@example.com
                         </span>
@@ -3420,7 +3420,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3450,12 +3450,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Antonio Carmona
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @tinygorilla269
                           </span>
@@ -3465,7 +3465,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           antonio.carmona@example.com
                         </span>
@@ -3476,7 +3476,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3506,12 +3506,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Agustin Muñoz
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @angrykoala849
                           </span>
@@ -3521,7 +3521,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           agustin.munoz@example.com
                         </span>
@@ -3532,7 +3532,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3562,12 +3562,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Manuela Calvo
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @lazybird187
                           </span>
@@ -3577,7 +3577,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           manuela.calvo@example.com
                         </span>
@@ -3588,7 +3588,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3618,12 +3618,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Helmut Bernard
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @crazybird440
                           </span>
@@ -3633,7 +3633,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           helmut.bernard@example.com
                         </span>
@@ -3644,7 +3644,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3674,12 +3674,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Faith George
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @silvercat803
                           </span>
@@ -3689,7 +3689,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           faith.george@example.com
                         </span>
@@ -3700,7 +3700,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3730,12 +3730,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Carmelo Velasco
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @lazysnake754
                           </span>
@@ -3745,7 +3745,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           carmelo.velasco@example.com
                         </span>
@@ -3756,7 +3756,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3786,12 +3786,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Amelia Mcdonalid
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @blackswan541
                           </span>
@@ -3801,7 +3801,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           amelia.mcdonalid@example.com
                         </span>
@@ -3812,7 +3812,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3842,12 +3842,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Hanaé Lefevre
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @bluetiger873
                           </span>
@@ -3857,7 +3857,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           hanae.lefevre@example.com
                         </span>
@@ -3868,7 +3868,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3898,12 +3898,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Heidi Daniels
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @smallpeacock320
                           </span>
@@ -3913,7 +3913,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           heidi.daniels@example.com
                         </span>
@@ -3924,7 +3924,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -3954,12 +3954,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Jimmie Henderson
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @happyrabbit783
                           </span>
@@ -3969,7 +3969,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           jimmie.henderson@example.com
                         </span>
@@ -3980,7 +3980,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4010,12 +4010,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Basil Marie
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @crazyleopard493
                           </span>
@@ -4025,7 +4025,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           basil.marie@example.com
                         </span>
@@ -4036,7 +4036,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4066,12 +4066,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Dwight Soto
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @happyrabbit710
                           </span>
@@ -4081,7 +4081,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           dwight.soto@example.com
                         </span>
@@ -4092,7 +4092,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4122,12 +4122,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Anaëlle Roux
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @brownmouse792
                           </span>
@@ -4137,7 +4137,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           anaelle.roux@example.com
                         </span>
@@ -4148,7 +4148,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4178,12 +4178,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Gabe Chambers
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @blackgoose558
                           </span>
@@ -4193,7 +4193,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           gabe.chambers@example.com
                         </span>
@@ -4204,7 +4204,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4234,12 +4234,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Mahé Durand
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @silverleopard983
                           </span>
@@ -4249,7 +4249,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           mahe.durand@example.com
                         </span>
@@ -4260,7 +4260,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4290,12 +4290,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Alejandro Fernandez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @silvermeercat163
                           </span>
@@ -4305,7 +4305,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           alejandro.fernandez@example.com
                         </span>
@@ -4316,7 +4316,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4346,12 +4346,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Vanesa Cortes
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @browncat192
                           </span>
@@ -4361,7 +4361,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           vanesa.cortes@example.com
                         </span>
@@ -4372,7 +4372,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4402,12 +4402,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Isabella Gilbert
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @heavymouse151
                           </span>
@@ -4417,7 +4417,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           isabella.gilbert@example.com
                         </span>
@@ -4428,7 +4428,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4458,12 +4458,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Amir Hubert
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @crazydog464
                           </span>
@@ -4473,7 +4473,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           amir.hubert@example.com
                         </span>
@@ -4484,7 +4484,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4514,12 +4514,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Holly Smith
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @sadkoala916
                           </span>
@@ -4529,7 +4529,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           holly.smith@example.com
                         </span>
@@ -4540,7 +4540,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4570,12 +4570,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Lenny Rey
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @heavyladybug676
                           </span>
@@ -4585,7 +4585,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           lenny.rey@example.com
                         </span>
@@ -4596,7 +4596,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4626,12 +4626,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Joaquin Nuñez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @tinypeacock607
                           </span>
@@ -4641,7 +4641,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           joaquin.nunez@example.com
                         </span>
@@ -4652,7 +4652,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4682,12 +4682,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Hector Esteban
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @whitegorilla529
                           </span>
@@ -4697,7 +4697,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           hector.esteban@example.com
                         </span>
@@ -4708,7 +4708,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4738,12 +4738,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Heather Steward
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @bluepanda699
                           </span>
@@ -4753,7 +4753,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           heather.steward@example.com
                         </span>
@@ -4764,7 +4764,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4794,12 +4794,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Rémy Gautier
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @goldentiger956
                           </span>
@@ -4809,7 +4809,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           remy.gautier@example.com
                         </span>
@@ -4820,7 +4820,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4850,12 +4850,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Prisca Simon
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @goldengorilla729
                           </span>
@@ -4865,7 +4865,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           prisca.simon@example.com
                         </span>
@@ -4876,7 +4876,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4906,12 +4906,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Montserrat Velasco
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @happypeacock220
                           </span>
@@ -4921,7 +4921,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           montserrat.velasco@example.com
                         </span>
@@ -4932,7 +4932,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -4962,12 +4962,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Elouan Barbier
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @beautifulfrog851
                           </span>
@@ -4977,7 +4977,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           elouan.barbier@example.com
                         </span>
@@ -4988,7 +4988,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5018,12 +5018,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Virginia Garcia
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @biggorilla925
                           </span>
@@ -5033,7 +5033,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           virginia.garcia@example.com
                         </span>
@@ -5044,7 +5044,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5074,12 +5074,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Maelya Dubois
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @sadelephant557
                           </span>
@@ -5089,7 +5089,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           maelya.dubois@example.com
                         </span>
@@ -5100,7 +5100,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5130,12 +5130,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Ella Scott
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @greenmouse583
                           </span>
@@ -5145,7 +5145,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           ella.scott@example.com
                         </span>
@@ -5156,7 +5156,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5186,12 +5186,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Rodney Hale
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @heavyrabbit161
                           </span>
@@ -5201,7 +5201,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           rodney.hale@example.com
                         </span>
@@ -5212,7 +5212,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5242,12 +5242,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Emmie Berger
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @angryduck712
                           </span>
@@ -5257,7 +5257,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           emmie.berger@example.com
                         </span>
@@ -5268,7 +5268,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5298,12 +5298,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Benno Adam
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @angrygorilla866
                           </span>
@@ -5313,7 +5313,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           benno.adam@example.com
                         </span>
@@ -5324,7 +5324,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5354,12 +5354,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Marin Chevalier
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @smallkoala487
                           </span>
@@ -5369,7 +5369,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           marin.chevalier@example.com
                         </span>
@@ -5380,7 +5380,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5410,12 +5410,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Yanick Perez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @organictiger866
                           </span>
@@ -5425,7 +5425,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           yanick.perez@example.com
                         </span>
@@ -5436,7 +5436,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5466,12 +5466,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Danny Terry
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @blackbear152
                           </span>
@@ -5481,7 +5481,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           danny.terry@example.com
                         </span>
@@ -5492,7 +5492,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5522,12 +5522,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Terrence Spencer
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @purpleduck784
                           </span>
@@ -5537,7 +5537,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           terrence.spencer@example.com
                         </span>
@@ -5548,7 +5548,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5578,12 +5578,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Sophie Martinez
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @angrywolf293
                           </span>
@@ -5593,7 +5593,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           sophie.martinez@example.com
                         </span>
@@ -5604,7 +5604,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5634,12 +5634,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Virginia Serrano
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @angrydog709
                           </span>
@@ -5649,7 +5649,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           virginia.serrano@example.com
                         </span>
@@ -5660,7 +5660,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-6 user-container"
+              class="ant-col user-container ant-col-xs-24 ant-col-sm-12 ant-col-md-8 ant-col-lg-6 ant-col-xl-6"
             >
               <div
                 class="ant-card ant-card-bordered"
@@ -5690,12 +5690,12 @@ Object {
                       >
                         <div>
                           <span
-                            class="ant-typography"
+                            class="ant-typography truncate-text"
                           >
                             Gaël Pierre
                           </span>
                           <span
-                            class="ant-typography ant-typography-disabled text-small"
+                            class="ant-typography ant-typography-disabled text-small truncate-text"
                           >
                              @tinyfish852
                           </span>
@@ -5705,7 +5705,7 @@ Object {
                         class="ant-card-meta-description"
                       >
                         <span
-                          class="ant-typography"
+                          class="ant-typography truncate-text"
                         >
                           gael.pierre@example.com
                         </span>

@@ -18,7 +18,7 @@ Object {
               class="ant-row"
             >
               <div
-                class="ant-col ant-col-2"
+                class="ant-col ant-col-2 ant-col-xs-6"
               >
                 <div
                   class="logo"
@@ -31,7 +31,7 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-col ant-col-12"
+                class="ant-col ant-col-12 ant-col-xs-13"
               >
                 <span
                   class="ant-input-group-wrapper ant-input-group-wrapper-lg ant-input-search ant-input-search-large search"
@@ -105,17 +105,18 @@ Object {
                 </span>
               </div>
               <div
-                class="ant-col ant-col-8"
+                class="ant-col ant-col-8 ant-col-xs-1"
               />
               <div
-                class="ant-col ant-col-2"
+                class="ant-col ant-col-2 ant-col-xs-4"
               >
                 <a
+                  class="more"
                   href="/settings"
                 >
                   <button
                     alt="More options"
-                    class="ant-btn ant-btn-default ant-btn-circle ant-btn-lg ant-btn-icon-only more"
+                    class="ant-btn ant-btn-default ant-btn-circle ant-btn-lg ant-btn-icon-only"
                     type="button"
                   >
                     <span
@@ -209,7 +210,7 @@ Object {
             class="ant-row"
           >
             <div
-              class="ant-col ant-col-2"
+              class="ant-col ant-col-2 ant-col-xs-6"
             >
               <div
                 class="logo"
@@ -222,7 +223,7 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-12"
+              class="ant-col ant-col-12 ant-col-xs-13"
             >
               <span
                 class="ant-input-group-wrapper ant-input-group-wrapper-lg ant-input-search ant-input-search-large search"
@@ -296,17 +297,18 @@ Object {
               </span>
             </div>
             <div
-              class="ant-col ant-col-8"
+              class="ant-col ant-col-8 ant-col-xs-1"
             />
             <div
-              class="ant-col ant-col-2"
+              class="ant-col ant-col-2 ant-col-xs-4"
             >
               <a
+                class="more"
                 href="/settings"
               >
                 <button
                   alt="More options"
-                  class="ant-btn ant-btn-default ant-btn-circle ant-btn-lg ant-btn-icon-only more"
+                  class="ant-btn ant-btn-default ant-btn-circle ant-btn-lg ant-btn-icon-only"
                   type="button"
                 >
                   <span
