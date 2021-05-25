@@ -3,13 +3,13 @@ import { ERROR } from './actions'
 import { notification } from 'antd'
 
 function * toastError ({ payload }) {
-  notification.error({
+  yield notification.error({
     message: payload.message,
     description: payload.description
   })
 }
 
-export default function * toastSaga () {
+export default function * () {
   yield all([
     takeEvery(ERROR, toastError)
   ])

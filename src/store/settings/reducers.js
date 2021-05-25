@@ -4,7 +4,7 @@ import { ENABLE_COUNTRY, DISABLE_COUNTRY } from './actions'
 const persistenceKey = 'countries'
 const INITIAL_STATE = load(persistenceKey, ['CH', 'ES', 'FR', 'GB'])
 
-const reducer = (state = INITIAL_STATE, action) => {
+export default (state = INITIAL_STATE, action) => {
   let newState = []
 
   switch (action.type) {
@@ -22,5 +22,3 @@ const reducer = (state = INITIAL_STATE, action) => {
   save(persistenceKey, newState)
   return newState
 }
-
-export default reducer

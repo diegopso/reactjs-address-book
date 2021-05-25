@@ -3,7 +3,7 @@ import paginationSaga from './pagination/sagas'
 import settingsSaga from './settings/sagas'
 import toastSaga from './toast/sagas'
 
-export default function * rootSaga (getState) {
+export default function * () {
   yield all([
     paginationSaga(),
     toastSaga(),

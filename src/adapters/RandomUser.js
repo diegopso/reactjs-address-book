@@ -33,7 +33,7 @@ const paginate = async (page, limit, countries, cacheNext = true) => {
     }, freshness)
 
     cacheNext && console.debug(Date.now() + ' Loading upon request, page ' + page)
-    return new Promise(resolve => resolve(cache[cacheKey]))
+    return Promise.resolve(cache[cacheKey])
   })
 
   // .then(result => new Promise(resolve => setTimeout(() => resolve(result), 60000))) // delay
